@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "yuba-cb-casc-ops-controller"
 description: "CloudBees CI configuration bundle for the yuba-cb-casc ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/yuba-cb-casc/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
